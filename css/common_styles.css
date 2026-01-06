@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+h1,
+h2 {
+  color: #2c3e50;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input.error {
+  border-color: #e74c3c;
+  background-color: #fdecea;
+}
+
+input.success {
+  border-color: #2ecc71;
+  background-color: #eafaf1;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9em;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 16px;
+}

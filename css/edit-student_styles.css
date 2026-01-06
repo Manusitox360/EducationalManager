@@ -1,0 +1,24 @@
+form {
+  width: 40%;
+  background-color: #fdf4ea;
+  border: 2px solid #e7ab3c;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #c0712b;
+}
+
+button {
+  background-color: #e78c3c;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #c0822b;
+}
+ form {
+  width: 40%;
+}
