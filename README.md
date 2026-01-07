@@ -38,19 +38,8 @@ The system is implemented using HTML, CSS, JavaScript, and PHP with a MySQL data
 ## Installation
 
 1. Clone the repository into your web server directory.
-2. Create a MySQL database named `educational_center`.
-3. Import the table:
-
-```sql
-CREATE TABLE students (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(100) NOT NULL,
-  age INT NOT NULL
-);
-```
-
-4. Configure `config/db.php` with your database credentials.
-5. Open the project in a browser and start managing students.
+2. Configure `config/db.php` with your database credentials.
+3. Open the project in a browser and start managing students.
 
 ---
 
@@ -59,12 +48,14 @@ CREATE TABLE students (
 ```
 /educational-center
 │
-├── config/db.php
+├── config/
+│   ├──db.php
+│   ├──init_db.php
 ├── css/
-│   ├── common.css
-│   ├── students-list.css
-│   ├── add-student.css
-│   └── edit-student.css
+│   ├── common_styles.css
+│   ├── students-list_styles.css
+│   ├── add-student_styles.css
+│   └── edit-student_styles.css
 ├── js/
 │   ├── validation-common.js
 │   ├── add-student.js
@@ -85,7 +76,7 @@ CREATE TABLE students (
 ## Usage
 
 1. Navigate to `students-list.php` to see all students.
-2. Use the **Add Student** page to create new students.
+2. Use the **Add Student** button to create new students.
 3. Use the **Edit** link to modify existing student data.
 4. Use the **Delete** link to remove students after confirmation.
 5. Use the search bar in the list page to filter students by name.
@@ -102,6 +93,8 @@ CREATE TABLE students (
 
 ---
 
-## Author
+## Author ✍️
+- **Manuel Espinosa:**  [![GitHub](https://img.shields.io/badge/GitHub-Perfil-black?style=flat-square&logo=github)]([https://github.com/tu-usuario](https://github.com/Manusitox360))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manuelespinosaguillen/)
+[![Correo](https://img.shields.io/badge/Email-Contacto-red?style=flat-square&logo=gmail)](mailto:espinosaguillenmanuel@gmail.com)
 
-* [Manuel Espinosa Guillén]
