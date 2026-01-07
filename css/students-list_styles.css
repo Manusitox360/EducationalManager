@@ -1,14 +1,100 @@
-table {
-  border-collapse: collapse;
-  width: 60%;
+.page-title {
+text-align: center;
+margin-bottom: 25px;
+font-size: 2rem;
 }
 
-th,
-td {
-  border: 1px solid #999;
-  padding: 8px;
+
+.add-btn {
+display: inline-block;
+margin-bottom: 15px;
+padding: 10px 18px;
+background-color: var(--color-success);
+color: white;
+border-radius: 6px;
+font-weight: bold;
 }
 
-th {
-  background-color: #f2f2f2;
+
+.add-btn:hover {
+background-color: #27ae60;
+}
+
+
+.search-form {
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+
+.search-form button {
+background-color: var(--color-primary);
+color: white;
+padding: 8px 14px;
+}
+
+
+.search-form button:hover {
+background-color: #2980b9;
+}
+
+
+.reset-link {
+padding: 8px 14px;
+background-color: #bdc3c7;
+color: #2c3e50;
+border-radius: 4px;
+}
+
+
+.reset-link:hover {
+background-color: #95a5a6;
+}
+
+
+.students-table {
+width: 100%;
+border-collapse: collapse;
+background-color: white;
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+.students-table th {
+background-color: var(--color-dark);
+color: white;
+padding: 12px;
+text-align: left;
+}
+
+
+.students-table td {
+padding: 12px;
+}
+
+
+.students-table tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+
+.students-table tr:hover {
+background-color: #eaf2f8;
+}
+
+
+.students-table td:last-child {
+white-space: nowrap;
+}
+
+
+.students-table a {
+color: var(--color-primary);
+}
+
+
+.students-table a:last-child {
+color: var(--color-danger);
 }
