@@ -34,7 +34,19 @@ The system is implemented using HTML, CSS, JavaScript, and PHP with a MySQL data
 * **PHP:** Logic separated from HTML to ensure clean and maintainable code.
 
 ---
+## Overview
 
+- **Home View**
+
+![image](https://res.cloudinary.com/dkhuqpgam/image/upload/EducationalManagerMain_iisd6x.png)  
+
+- **Add Student**
+  
+![image](https://res.cloudinary.com/dkhuqpgam/image/upload/imagen_2026-01-07_190929874_fvn4q8.png)
+
+- **Edit Student**
+
+![image](https://res.cloudinary.com/dkhuqpgam/image/upload/editStudent_dciwtt.png)
 ## Installation
 
 1. Clone the repository into your web server directory.
