@@ -1,5 +1,5 @@
 <?php
-require_once "config/db.php";
+require_once __DIR__ . '\config\db.php';
 
 
 if (!isset($_GET['id'])) {
@@ -35,7 +35,7 @@ exit;
 <h1>Edit Student</h1>
 
 
-<form method="post" id="editForm" action="php/edit-student-action.php">
+<form method="post" id="editForm" action= "php/edit-student-action.php">
 <input type="hidden" name="id" value="<?= $student['id'] ?>">
 
 
