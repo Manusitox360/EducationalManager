@@ -1,14 +1,6 @@
 <?php
-$host = "localhost";
-$db = "highschool";
-$user = "root";
-$pass = "";
+require_once __DIR__ . '/init_db.php';
 
-
-try {
-$pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-die("Database connection failed");
-}
-?>
+$pdo = new PDO("mysql:host=localhost;dbname=educational_manager;charset=utf8", "root", "", [
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+]);
