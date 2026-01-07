@@ -1,24 +1,31 @@
 form {
-  width: 40%;
+  max-width: 400px;
+  margin: 0 auto;
   background-color: #fdf4ea;
   border: 2px solid #e7ab3c;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
-
+form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #e78c3c;
+  color: white;
+}
 h1 {
   color: #c0712b;
 }
 
-button {
-  background-color: #e78c3c;
-  color: white;
-  border: none;
-}
-
-button:hover {
+form button:hover {
   background-color: #c0822b;
 }
- form {
+form {
   width: 40%;
 }

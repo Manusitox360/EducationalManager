@@ -42,12 +42,11 @@ exit;
 <label for="name">Name</label>
 <input type="text" id="name" name="name" value="<?= htmlspecialchars($student['name']) ?>">
 
-<br>
+
 
 <label for="age">Age</label>
 <input type="number" id="age" name="age" value="<?= $student['age'] ?>">
 
-<br>
 
 <button type="submit">Update</button>
 
